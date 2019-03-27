@@ -1,24 +1,19 @@
 {
-  "name": "js-book",
+  "name": "webdriverioframework",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "Webdriverio Framework",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maximplechenko/js-book.git"
-  },
-  "author": "",
+  "author": "Max Plechenko",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maximplechenko/js-book/issues"
-  },
-  "homepage": "https://github.com/maximplechenko/js-book#readme",
   "devDependencies": {
-    "eslint": "^5.12.1",
-    "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "mocha": "^6.0.2",
+    "selenium-standalone": "^6.15.3",
+    "wdio-dot-reporter": "0.0.10",
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.12",
+    "webdriverio": "^4.13.2"
   }
 }
