@@ -6,8 +6,9 @@ describe("Verify homepage links work correctly", function(){
         })    
         browser.url('/')        
         expect(browser.getTitle()).to.equal('WebDriverUniversity.com')
-        browser.click('#contact-us')
-        browser.pause(3000)
+        //browser.debug();
+        browser.click('#contact-us');
+        browser.pause(3000);
     });
 
     it("Check login button opens login page", function(done){
